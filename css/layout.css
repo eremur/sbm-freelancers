@@ -1,0 +1,34 @@
+@import url('reset.css');
+@import url('fuentes.css');
+
+
+/*FLOAT-------------------------------------------------------------*/
+.floatl { float: left;}
+
+.floatr { float: right;}
+
+.clear, .clear::after, .clear::before { clear:both; }
+.clear::after, .clear::before {
+  content: "";
+  display: block;
+}
+
+/*DISPLAY: INLINE-BLOCK---------------------------------------------*/
+.ib { display: inline-block; }
+
+.v-baseline { vertical-align: baseline; }
+.v-bottom { vertical-align: bottom; }
+.v-middle { vertical-align: middle; }
+.v-top { vertical-align: top; }
+.f0 {font-size: 0;}
+
+
+/*DISPLAY: TABLE-----------------------------------------------------*/
+.table { display: table; }
+
+.table-cell { display: table-cell; }
+
+
+/*DISPLAY: FLEX-----------------------------------------------------*/
+.flex { display: flex; }
+.flex-item { flex: none; }
