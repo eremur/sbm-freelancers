@@ -1,0 +1,26 @@
+.container {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {max-width: 1100px;}
+
+.item {
+  display: block;
+}
+
+.uno { width: 8.333333333333333%; }
+.unoymedio { width: 11.5%; }
+.dos { width: 16.666666666666667%; }
+.tres { width: 25%; }
+.cuatro { width: 33.333333333333333%; }
+.cinco { width: 41.666666666666667%; }
+.seis { width: 50%;}
+.siete { width: 58,333333333333333%; }
+.ocho { width: 66.666666666666667%; }
+.nueve { width: 75%; }
+.diez { width: 83.333333333333333%; }
+.diezymedio {width: 88%;}
+.once { width: 91.66666666666667%; }
+.doce { width: 100%;}

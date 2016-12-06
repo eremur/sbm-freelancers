@@ -2,132 +2,92 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Especialistas en Desarrollo Web. Contacto, artícluos y más.">
-    <meta name="keywords" content="web, diseño">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/gridsbm.css">
-    <link rel="stylesheet" type="text/css" href="css/layout.css">
-    <title>SBM Freelancers</title>
+    <title>Diseño desde cero</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-<!--HEADER + MENU...............................................-->
-    <header>
-      <div class="container  clear">
-        <img id="logo" class="floatl" src="https://github.com/eremur/sbm-freelancers/blob/gh-pages/imagenes/logo.png?raw=true" alt="Logotipo">
-        <nav id="menu" class="floatr">
-          <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Artículos</a></li>
-            <li><a href="#">Noticias</a></li>
+    <header class="">
+      <section id="header" class="container f0">
+        <div id="logo" class="item unoymedio i-block v-top">
+          <img src="imagenes/logo.png" alt="">
+        </div>
+        <nav id="menu" class="item diezymedio i-block v-top">
+          <ul class="f0">
+            <li class="i-block space"><a class="opc-menu" href="#">Inicio</a></li>
+            <li class="i-block space"><a class="opc-menu" href="#">Artículos</a></li>
+            <li class="i-block space"><a class="opc-menu" href="#">Noticias</a></li>
           </ul>
         </nav>
-      </div>
+      </section>
     </header>
-
-    <section id="wraper">
-      <section id="main">
-<!--SLIDESHOW....................................................-->
-        <section id="slideshow" class="container">
-
-        </section>
-
-<!--BIENVENIDOS (baner)..........................................-->
-        <section id="bienvenidos"  class="container">
-          <article class="">
-            <hgroup>
-              <h1>Bienvenidos a SBM Freelancers</h1>
-              <img src="https://github.com/eremur/sbm-freelancers/blob/gh-pages/imagenes/atomito.png?raw=true" alt="atomo react">
-              <h3><strong>React Js:</strong> is a librería ipsum dolor sit amet, consectetur adipiscing elit convallis orci.</h3>
-            </hgroup>
-            <p>
-              <ul>
-                <li>Aenean nec cursus eros. Pellentesque porttitor sodales dui quis ultricies.</li>
-                <li>Etiam nec dui sit amet arcu iaculis congue non vitae mi.</li>
-                <li>Aenean mi felis, tempor vel ipsum in, scelerisque blandit risus.</li>
-                <li>Quisque ut semper lacus. Morbi id libero egestas, condimentum arcu ac.</li>
-              </ul>
-            </p>
-            <p>Sed pharetra eu metus sit amet sodales. Suspendisse mattis pulvinar nibh ac hendrerit. Vestibulum quis gravida quam. Integer a porttitor leo, quis sagittis ligula. Pellentesque vel feugiat nulla, ut fermentum velit. Praesent non nisi faucibus, faucibus urna sed, pharetra dui. Morbi id lectus vitae dolor ultrices consequat. </p>
-          </article>
-        </section>
-
-        <section  id="master" class="container clear">
-          <section id="articulos">
-  <!--ARTICULO 1...................................................-->
-            <article class="">
-              <hgroup>
-                <h3 class="titulo">La Programación Funcional es el futuro</h3>
-              </hgroup>
-              <p class="fecha">25 de Noviembre del año 2016</p>
-              <img class="funcional" src="https://github.com/eremur/sbm-freelancers/blob/gh-pages/imagenes/funcional.png?raw=true" width="230" alt="Programacion Funcional Imagen">
-              <p class="extracto">Morbi nec nunc vitae turpis sodales condimentum. Nunc iaculis porta nibh. In placerat purus et nibh posuere, sit amet lacinia leo imperdiet. Mauris non lobortis ante. Vestibulum eleifend viverra ipsum, quis pretium risus congue vitae. Cras mauris elit, volutpat eget nisi dapibus, euismod efficitur dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce feugiat purus ac consectetur aliquam. In eu tristique ipsum.
-
-              Duis aliquam ipsum et dolor ultricies pretium. Aliquam erat volutpat. Suspendisse non lacus eget purus dictum vehicula ac vel enim. Ut molestie aliquet urna, eget tincidunt tellus tempus quis.Sed pharetra eu metus sit amet sodales.
-              </p>
-            </article>
-
-  <!--ARTICULO 2...................................................-->
-            <article class="">
-              <hgroup>
-                <h3 class="titulo">¿Como pasar de Javascript a React Js?</h3>
-              </hgroup>
-              <p class="fecha">25 de Noviembre del año 2016</p>
-              <img class="funcional" src="https://github.com/eremur/sbm-freelancers/blob/gh-pages/imagenes/reactjs.png?raw=true" width="230" alt="Programacion Funcional Imagen">
-              <p class="extracto">Morbi nec nunc vitae turpis sodales condimentum. Nunc iaculis porta nibh. In placerat purus et nibh posuere, sit amet lacinia leo imperdiet. Mauris non lobortis ante. Vestibulum eleifend viverra ipsum, quis pretium risus congue vitae. Cras mauris elit, volutpat eget nisi dapibus, euismod efficitur dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce feugiat purus ac consectetur aliquam. In eu tristique ipsum.
-
-              Duis aliquam ipsum et dolor ultricies pretium. Aliquam erat volutpat. Suspendisse non lacus eget purus dictum vehicula ac vel enim. Ut molestie aliquet urna, eget tincidunt tellus tempus quis.Sed pharetra eu metus sit amet sodales.
-              </p>
-            </article>
-          </section>
-
-
-  <!--SIDEBAR (Articulos Recientes)................................-->
-          <aside class="">
-            <section class="widget">
-              <h3>Artículos Recientes</h3>
-              <ul>
-                <li><a href="#">La Programación Funcional es el futuro</a></li>
-                <li><a href="#">¿Como pasar de Javascript a React Js?</a></li>
-                <li><a href="#">¿Qué es React Js?</a></li>
-                <li><a href="#">Un plan de estudios para Javascript</a></li>
-                <li><a href="#">La Evolución de la Programación</a></li>
-                <li><a href="#">Generadores Web Estáticos</a></li>
-              </ul>
-            </section>
-  <!--SIDEBAR (Publicidad).......................................-->
-            <section class="widget">
-              <h3>Publicidad</h3>
-              <img src="https://github.com/eremur/sbm-freelancers/blob/gh-pages/imagenes/publicidad2.png?raw=true" alt="adidas publicidad">
-            </section>
-          </aside>
-        </section>
-        </section>
-
-
-<!--FOOTER (Quienes Somos)......................................-->
-      <footer class="container clear">
-        <section id="quienes-somos" class="item  floatl">
-          <hgroup>
-            <h3>¿Quienes Somos?</h3>
-            <p>Morbi nec nunc vitae turpis sodales condimentum. Nunc iaculis porta nibh. In placerat purus et nibh posuere, sit amet lacinia leo imperdiet. Mauris non lobortis ante. Vestibulum eleifend viverra ipsum, quis pretium risus congue vitae. Cras mauris elit, volutpat eget nisi dapibus, euismod efficitur dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce feugiat purus ac consectetur aliquam. In eu tristique ipsum.
-            </p>
-          </hgroup>
-        </section>
-
-<!--FOOTER (Redes Sociales)......................................-->
-        <section id="social-red" class="item  floatl">
-          <div class="facebook"><a href="#">Facebook</a></div>
-          <div class="gmail"><a href="#">Gmail</a></div>
-          <div class="twitter"><a href="#">Twitter</a></div>
-          <div class="youtube"><a href="#">Youtube</a></div>
-        </section>
-      </footer>
-
-<!--COPYRIGHT...................................................-->
-      <div id="copyright" class="container">
-        <p>SBM Freelancers ©  2016. Todos los derechos reservados.</p>
+    <section id="slide-wraper" class="container">
+      <div id="slide" class="item doce">
+        Slideshow
       </div>
     </section>
+    <section id="welcome" class="container">
+      <article class="">
+        <hgroup class="clear">
+          <h1>Bienvenidos a SBM Freelancers</h1>
+          <img class="floatl uno" src="imagenes/atomito.png" alt="atomo react">
+          <h2 class="floatl once">React Js: is a librería ipsum dolor sit amet, consectetur adipiscing elit convallis orci.</h2>
+        </hgroup>
+        <p>
+          <ul>
+            <li>Aenean nec cursus eros. Pellentesque porttitor sodales dui quis ultricies.</li>
+            <li>Etiam nec dui sit amet arcu iaculis congue non vitae mi.</li>
+            <li>Aenean mi felis, tempor vel ipsum in, scelerisque blandit risus.</li>
+            <li>Quisque ut semper lacus. Morbi id libero egestas, condimentum arcu ac.</li>
+          </ul>
+        </p>
+        <p>Sed pharetra eu metus sit amet sodales. Suspendisse mattis pulvinar nibh ac hendrerit. Vestibulum quis gravida quam. Integer a porttitor leo, quis sagittis ligula. Pellentesque vel feugiat nulla, ut fermentum velit. Praesent non nisi faucibus, faucibus urna sed, pharetra dui. Morbi id lectus vitae dolor ultrices consequat. </p>
+      </article>
+    </section>
+    <section  id="main" class="container clear">
+      <section id="articulos" class="item nueve floatl">
+        <article id="art-1" class="clear">
+          <hgroup>
+            <h3 class="titulo">La Programación Funcional es el futuro</h3>
+          </hgroup>
+          <p class="fecha">25 de Noviembre del año 2016</p>
+          <div class="item floatl">
+            <img class="funcional" src="imagenes/funcional.png" width="230" alt="Programacion Funcional Imagen">
+          </div>
+          <p id="art-1p"class="item extracto floatl">Morbi nec nunc vitae turpis sodales condimentum. Nunc iaculis porta nibh. In placerat purus et nibh posuere, sit amet lacinia leo imperdiet. Mauris non lobortis ante. Vestibulum eleifend viverra ipsum, quis pretium risus congue vitae. Cras mauris elit, volutpat eget nisi dapibus, euismod efficitur dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce feugiat purus ac consectetur aliquam. In eu tristique ipsum.
 
+          Duis aliquam ipsum et dolor ultricies pretium. Aliquam erat volutpat. Suspendisse non lacus eget purus dictum vehicula ac vel enim. Ut molestie aliquet urna, eget tincidunt tellus tempus quis.Sed pharetra eu metus sit amet sodales.
+          </p>
+        </article>
+        <article id="art-1" class="clear">
+          <hgroup>
+            <h3 class="titulo">¿Como pasar de Javascript a React Js?</h3>
+          </hgroup>
+          <p class="fecha">25 de Noviembre del año 2016</p>
+          <div class="item floatl">
+            <img class="funcional" src="imagenes/reactjs.png" width="230" alt="Programacion Funcional Imagen">
+          </div>
+          <p id="art-1p" class="item extracto floatl">Morbi nec nunc vitae turpis sodales condimentum. Nunc iaculis porta nibh. In placerat purus et nibh posuere, sit amet lacinia leo imperdiet. Mauris non lobortis ante. Vestibulum eleifend viverra ipsum, quis pretium risus congue vitae. Cras mauris elit, volutpat eget nisi dapibus, euismod efficitur dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce feugiat purus ac consectetur aliquam. In eu tristique ipsum.
+
+          Duis aliquam ipsum et dolor ultricies pretium. Aliquam erat volutpat. Suspendisse non lacus eget purus dictum vehicula ac vel enim. Ut molestie aliquet urna, eget tincidunt tellus tempus quis.Sed pharetra eu metus sit amet sodales.
+          </p>
+        </article>
+      </section>
+      <section id="sidebar" class="item tres floatl">
+        <aside>
+          Sidebar
+        </aside>
+      </section>
+    </section>
+    <footer id="footer" class="container tablex">
+      <div class="foo item seis cell">
+        ¿Quienes somos?
+      </div>
+      <div class="foo item seis cell">
+        Social Media
+      </div>
+    </footer>
   </body>
 </html>
